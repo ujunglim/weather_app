@@ -7,7 +7,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 const weatherOptions = {
 	Haze: {
 		iconName: "weather-hazy",
-		gradient: ["#4da0b0", "#D39D38"],
+		gradient: ["#D7DDE8", "#757F9A" ],
 		title: "Haze",
     subtitle: "Just don't go outside."
 	},
@@ -19,13 +19,13 @@ const weatherOptions = {
 	},
 	Drizzle: {
     iconName: "weather-hail",
-		gradient: ["#89F7FE", "#66A6FF"],
+		gradient: ["#4CA1AF", "#C4E0E5"],
 		title: "Drizzle",
-    subtitle: "Is like rain, but gay 🏳️‍🌈"
+    subtitle: "Is like rain"
 	},
 	Rain: {
     iconName: "weather-rainy",
-		gradient: ["#00C6FB", "#005BEA"],
+		gradient: ["#2c3e50", "#3498db"],
 		title: "Raining like a MF",
     subtitle: "For more info look outside"
 	},
@@ -36,12 +36,14 @@ const weatherOptions = {
     subtitle: "Do you want to build a snowman? Fuck no."
 	},
 	Atmosphere: {
-		iconName: "weather-hail",
-    gradient: ["#89F7FE", "#66A6FF"]
+		iconName: "weather-sunny",
+		gradient: ["#89F7FE", "#66A6FF"],
+		title: "May be good",
+		subtitle: "Get some fresh air"
 	},
 	Clear: {
 		iconName: "weather-sunny",
-		gradient: ["#FF7300", "#FEF253"],
+		gradient: ["#91EAE4", "#2980B9"],
 		title: "Sunny as fuck",
     subtitle: "Go get your ass burnt"
 	},
@@ -53,7 +55,7 @@ const weatherOptions = {
 	},
 	Mist: {
 		iconName: "weather-hail",
-		gradient: ["#4DA0B0", "#D39D38"],
+		gradient: ["#b6fbff", "#83a4d4"],
 		title: "Mist!",
     subtitle: "It's like you have no glasses on."
 	},
