@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, StatusBar } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { LinearGradient } from 'expo-linear-gradient';
 
+// weather data object
 const weatherOptions = {
 	Haze: {
 		iconName: "weather-hazy",
@@ -21,7 +22,7 @@ const weatherOptions = {
     iconName: "weather-hail",
 		gradient: ["#4CA1AF", "#C4E0E5"],
 		title: "Drizzle",
-    subtitle: "Is like rain"
+    subtitle: "It's like rain"
 	},
 	Rain: {
     iconName: "weather-rainy",
@@ -57,7 +58,7 @@ const weatherOptions = {
 		iconName: "weather-hail",
 		gradient: ["#b6fbff", "#83a4d4"],
 		title: "Mist!",
-    subtitle: "It's like you have no glasses on."
+    subtitle: "It's like you have glasses on."
 	},
 	Dust: {
 		iconName: "weather-hail",
@@ -90,6 +91,7 @@ export default function Weather({temp, condition}) {
 			</LinearGradient>
 	)
 }
+// prop types to Weather component, temp and condition is required.
 Weather.propTypes = {
 	temp: PropTypes.number.isRequired,
 	condition: PropTypes.oneOf([

@@ -14,8 +14,8 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		justifyContent: "flex-end",
-		paddingHorizontal: 30,
-		paddingVertical: 100,
+		paddingHorizontal: 30, // react native paddingv
+		paddingVertical: 100, // react native padding
 		backgroundColor: "#FDF6AA"
 	},
 	text: {
